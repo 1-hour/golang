@@ -1,0 +1,22 @@
+{
+  "name": "golang.1hour.guide",
+  "version": "0.0.1",
+  "description": "A guide for 1hour to Golang.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1-hour/golang.git"
+  },
+  "author": "Zoe <hi@zoe.im>",
+  "bugs": {
+    "url": "https://github.com/1-hour/golang/issues"
+  },
+  "homepage": "https://github.com/1-hour/golang/#readme",
+  "devDependencies": {
+    "vuepress": "^1.0.3"
+  }
+}
