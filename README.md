@@ -1,6 +1,6 @@
 <div align="center">
 
-![Golang・1小时指南](/.vuepress/public/assets/hero.svg)
+![Golang・1小时指南](/.vuepress/public/assets/go-logo-blue.svg)
 
 ## Golang・1小时指南
 
