@@ -24,6 +24,7 @@ steps:
     echo "checkout to dist branch"
     git checkout --orphan $TARGET_BRANCH
     git rm -rf .
+    rm -rf node_modules
     mv .vuepress/dist .
     git add -f --ignore-errors --all
     git -c user.name='azure pipeline' -c user.email='azure' commit -m ":tada: release ui"
