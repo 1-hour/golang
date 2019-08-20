@@ -25,7 +25,7 @@ steps:
     git checkout --orphan $TARGET_BRANCH
     git rm -rf .
     rm -rf node_modules
-    mv .vuepress/dist .
+    mv .vuepress/dist/* .
     git add -f --ignore-errors --all
     git -c user.name='azure pipeline' -c user.email='azure' commit -m ":tada: release ui"
     git push -f -q https://$GH_USER:$GH_TOKEN@github.com/$BUILD_REPOSITORY_ID $TARGET_BRANCH
