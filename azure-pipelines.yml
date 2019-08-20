@@ -27,5 +27,6 @@ steps:
     mv .vuepress/dist .
     git add -f --ignore-errors --all
     git -c user.name='azure pipeline' -c user.email='azure' commit -m ":tada: release ui"
+    echo "https://$GH_USER:$GH_TOKEN@github.com/$BUILD_REPOSITORY_ID"
     git push -f -q https://$GH_USER:$GH_TOKEN@github.com/$BUILD_REPOSITORY_ID $TARGET_BRANCH
   displayName: Publish to dist branch
